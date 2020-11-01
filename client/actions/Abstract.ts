@@ -107,7 +107,7 @@ export abstract class API {
 export class APIPlatform extends API {
   protected serializer: AbstractSerializer = new APIPlatformSerializer();
 
-  getBaseUrl = (): string => 'http://api.domain.com:80';
+  getBaseUrl = (): string => process.env.API_URL || '';
 
   getMany(): Promise<{ data: SerializeItemInterface[], hasNext: boolean }> {
     return this.getRequest().then(({

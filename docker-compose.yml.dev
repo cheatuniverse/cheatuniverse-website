@@ -89,6 +89,8 @@ services:
       context: ./client
     volumes:
       - ./client:/opt/app
+    environment:
+      - DOMAIN=${HTTP_OR_SSL}api.${DOMAIN_NAME}
     labels:
       - traefik.http.routers.client-cheatuniverse.rule=Host(`${DOMAIN_NAME}`)
       - traefik.http.services.client-cheatuniverse.loadbalancer.server.port=3000

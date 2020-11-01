@@ -22,4 +22,7 @@ module.exports = {
     en: 'en',
     fr: 'fr',
   }),
+  env: {
+    API_URL: process.env.DOMAIN
+  },
 };
