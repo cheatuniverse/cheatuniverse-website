@@ -1,0 +1,90 @@
+{
+  "Combat": {
+    "label": "Combat",
+    "modules": {
+      "AimAssist": "Automatically fix nearly player",
+      "Antibot": "Never hit server bots",
+      "AutoArmor": "Wear best armor located in your inventory automatically",
+      "AutoClick": "Just press your left click to jitter click",
+      "AutoPot": "Throw instant health when your life is under predefined limit",
+      "AutoSoup": "Eat a soup when your life is under predefined limit",
+      "BedAura": "Automatically break enemy bed in bedwars",
+      "BowAimbot": "Automatically aim nearest enemy when you're charging your bow",
+      "EggAura": "Automatically destroy eggs",
+      "FastBow": "Shot without charging your bow",
+      "InvCleaner": "Clear your inventory",
+      "KillAura": "Attack each player simultaneous or one by one depending of your configuration around you",
+      "Regen": "Regenerate your life faster",
+      "Triggerbot": "Automatically attack players which are in your viewfinder",
+      "Velocity": "You can't be push by anyone"
+    }
+  },
+  "Misc": {
+    "label": "Misc",
+    "modules": {
+      "AutoFish": "Automatically fishing for you",
+      "Day": "Always day",
+      "FastPlace": "Place blocks very fast",
+      "IRC": "Connect your Minecraft chat to an IRC chat with all client user",
+      "Scaffold": "Place block under your feet",
+      "Tower": "Place blocks under your character when you jump"
+    }
+  },
+  "Movement": {
+    "label": "Movement",
+    "modules": {
+      "AutoSneak": "You are sneaking all the time",
+      "FastLadder": "Climb ladders faster",
+      "IceSpeed": "High speed on ice",
+      "Jesus": "You can walk on top of water",
+      "LongJump": "You are jumping far forward",
+      "NoSlowDown": "Never be slowed anymore",
+      "SafeWalk": "Be blocked on block to prevent fall from it",
+      "Speed": "Increase your speed",
+      "Sprint": "Keep your sprint up",
+      "Step": "Automatically step block without press jump key",
+      "Strafe": "Better control when you are in the airs"
+    }
+  },
+  "Player": {
+    "label": "Player",
+    "modules": {
+      "Blink": "Simulate lags. Other people see you lagging",
+      "ChestAura": "Automatically open chests around you",
+      "ChestStealer": "Automatically pick items in chest",
+      "FastEat": "Eat your food faster",
+      "Firion": "Remove all bad potions effects",
+      "Flight": "Fly like creative mode",
+      "Freecam": "Free cam, go out your body then walk around",
+      "Glide": "You can float in the air",
+      "NoRotate": "The server can't force your rotation",
+      "NoFall": "Don't receive fall damages",
+      "OnGround": "Speed on ground",
+      "Phase": "You can pass through solid blocks",
+      "PingSpoof": "Fake your ping"
+    }
+  },
+  "Render": {
+    "label": "Render",
+    "modules": {
+      "ArmorHUD": "Show your armor on screen",
+      "Chams": "Wallhack to see mobs",
+      "ChestESP": "Show chest hitbox through blocks",
+      "EffectHUD": "Show your current effects on screen",
+      "ESP": "Show animals, mobs, player ESP",
+      "Fullbright": "Gamma +999999",
+      "NameTags": "Render player nametags, far and bigger",
+      "Tracers": "Draw lines to nearest players",
+      "Trajectories": "Show trajectories of items can be thrown",
+      "Xray": "Show only specific blocks"
+    }
+  },
+  "table": {
+    "header": {
+      "category": "Category",
+      "module": "Module",
+      "description": "Description"
+    }
+  },
+  "title": "Glossary"
+}

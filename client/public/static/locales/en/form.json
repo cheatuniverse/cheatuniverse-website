@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "downloadLink": {
+      "label": "Download link",
+      "placeholder": "https://linktodownload.com"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "your@email.com"
+    },
+    "name": {
+      "label": "Cheat name",
+      "placeholder": "cheat name"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "yourpassword"
+    },
+    "username": {
+      "label": "Username",
+      "placeholder": "johndoe"
+    },
+    "version": {
+      "label": "Version",
+      "placeholder": "version"
+    }
+  },
+  "submit": "Submit"
+}

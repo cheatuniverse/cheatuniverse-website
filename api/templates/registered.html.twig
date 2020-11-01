@@ -1,0 +1,6 @@
+{% extends '/base.html.twig' %}
+
+{% block body %}
+    <span>Félicitations {{ username }}, votre inscription a été validée</span>
+    <p>Pour vous connecter, il vous suffit de vous rendre sur <a href="{{ redirect_url }}">ce lien : {{ redirect_url }}</a></p>
+{% endblock %}

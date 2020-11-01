@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "downloadLink": {
+      "label": "Lien de téléchargement",
+      "placeholder": "https://lienducheat.com"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "votre@email.fr"
+    },
+    "name": {
+      "label": "Nom du cheat",
+      "placeholder": "nom du cheat"
+    },
+    "password": {
+      "label": "Mot de passe",
+      "placeholder": "votremotdepasse"
+    },
+    "username": {
+      "label": "Nom d'utilisateur",
+      "placeholder": "johndoe"
+    },
+    "version": {
+      "label": "Version",
+      "placeholder": "version"
+    }
+  },
+  "submit": "Valider"
+}

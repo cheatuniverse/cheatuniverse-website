@@ -1,0 +1,90 @@
+{
+  "Combat": {
+    "label": "Combat",
+    "modules": {
+      "AimAssist": "Fixe automatiquement l'ennemi le plus proche",
+      "Antibot": "Ne frappe pas les bots",
+      "AutoArmor": "Sélectionne la meilleure armure dans votre inventaire et l'équipe automatiquement",
+      "AutoClick": "Il suffit juste de maintenir le clic gauche de la souris pour cliquer rapidement",
+      "AutoPot": "Lance automatiquement une potion de soin quand votre vie passe sous un seuil prédéfini",
+      "AutoSoup": "Mange automatiquement une soupe de soin quand votre vie passe sous un seuil prédéfini",
+      "BedAura": "Casse automatiquement le lit ennemi en bedwars dès lors qu'il est à portée",
+      "BowAimbot": "Fixe automatiquement l'ennemi le plus proche quand vous chargez votre arc",
+      "EggAura": "Pour le mode de jeu eggwars",
+      "FastBow": "Charge l'arc plus rapidement",
+      "InvCleaner": "Vide votre inventaire",
+      "KillAura": "Attaque chaque joueur autour de vous simultanément ou un par un tout dépend de votre configuration",
+      "Regen": "Vous regagnez votre vie plus rapidement",
+      "Triggerbot": "Attaque automatiquement les joueurs qui passent dans votre visseur",
+      "Velocity": "Vous ne subissez pas l'effet de recul"
+    }
+  },
+  "Misc": {
+    "label": "Misc",
+    "modules": {
+      "AutoFish": "Pêche automatiquement pour vous",
+      "Day": "Jour infini",
+      "FastPlace": "Place les blocs plus rapidement",
+      "IRC": "Connecte votre tchat minecraft à un chat IRC contenant tous les utilisateurs du cheat",
+      "Scaffold": "Place automatiquement des blocs sous vous pieds",
+      "Tower": "Place automatiquement des blocs sous vous pieds quand vous sautez"
+    }
+  },
+  "Movement": {
+    "label": "Movement",
+    "modules": {
+      "AutoSneak": "Vous êtes constament accroupis",
+      "FastLadder": "Monte les échelles plus rapidement",
+      "IceSpeed": "Votre vitesse est accélérée sur la glace",
+      "Jesus": "Vous marchez sur l'eau",
+      "LongJump": "Vous sautez beaucoup plus loin",
+      "NoSlowDown": "Vous n'êtes jamais ralenti (soulsand, nourriture, etc...)",
+      "SafeWalk": "Impossible de tomber d'un block",
+      "Speed": "Augmente considérablement la vitesse",
+      "Sprint": "Garde le sprint actif peu importe la direction",
+      "Step": "Grimpe automatiquement les block",
+      "Strafe": "Meilleur contrôle des mouvements dans les airs"
+    }
+  },
+  "Player": {
+    "label": "Player",
+    "modules": {
+      "Blink": "Simule le lag, les autres joueurs vous voient vous téléporter",
+      "ChestAura": "Ouvre automatiquement les coffres autour de vous",
+      "ChestStealer": "Prend automatiquement tous les objets d'un coffre",
+      "FastEat": "Vous mangez plus rapidement la nourriture",
+      "Firion": "Supprime tous les effets des potions négatives",
+      "Flight": "Voler comme en mode créatif",
+      "Freecam": "Vous sortez de votre corps et pouvez vous balader",
+      "Glide": "Vous planez dans les airs",
+      "NoRotate": "Le serveur ne peut pas forcer les rotations",
+      "NoFall": "Aucun dégâts de chute",
+      "OnGround": "Vitesse accélérée sur le sol",
+      "Phase": "Vous passez à travers les blocs",
+      "PingSpoof": "Ping modifié"
+    }
+  },
+  "Render": {
+    "label": "Render",
+    "modules": {
+      "ArmorHUD": "Affiche l'état de l'armure équipée sur l'écran",
+      "Chams": "Vous voyez les mobs à travers les blocs",
+      "ChestESP": "Vous voyez les coffres à travers les blocs",
+      "EffectHUD": "Affiche les effets en cours sur l'écran",
+      "ESP": "Affiche l'ESP des joueurs, mobs, animaux",
+      "Fullbright": "Gamma +999999",
+      "NameTags": "Le nom des joueurs est écrit en plus gros, est plus persistant et se voit à travers les blocs",
+      "Tracers": "Trace des lignes jusqu'aux ennemis les plus proches",
+      "Trajectories": "Affiche la trajectoire des objets",
+      "Xray": "Affiche uniquement des blocks spécifiques"
+    }
+  },
+  "table": {
+    "header": {
+      "category": "Catégorie",
+      "module": "Module",
+      "description": "Description"
+    }
+  },
+  "title": "Glossaire"
+}

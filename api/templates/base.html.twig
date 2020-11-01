@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .head{
+            font-size: 3em;
+            font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            text-align: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        .primary {
+            background-color: #127ba3;
+            color: white;
+        }
+        #body-content {
+            padding-bottom: 2em;
+            padding-top: 2em;
+        }
+        #main {
+            font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-size: 160%;
+            font-weight: lighter;
+            text-align: center
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <div class="head primary">
+        <span>Cheatuniverse</span>
+    </div>
+    <div id="body-content">
+        {% block body %}{% endblock %}
+    </div>
+</div>
+</body>
+</html>
