@@ -3,6 +3,8 @@ import { APIPlatformSerializer } from 'serializers/APIPlatformSerializer';
 import { AbstractSerializer } from 'serializers/AbstractSerializer';
 import { SerializeItemInterface } from 'interfaces/SerializerInterface';
 import { Token } from 'Storage/Token';
+import getConfig from 'next/config';
+const { publicRuntimeConfig, serverRuntimeConfig } = getConfig();
 
 interface EndpointInterface {
   endpoint?: string;
@@ -107,7 +109,7 @@ export abstract class API {
 export class APIPlatform extends API {
   protected serializer: AbstractSerializer = new APIPlatformSerializer();
 
-  getBaseUrl = (): string => process.env.API_URL || '';
+  getBaseUrl = (): string => serverRuntimeConfig.API_URL || publicRuntimeConfig.API_URL;
 
   getMany(): Promise<{ data: SerializeItemInterface[], hasNext: boolean }> {
     return this.getRequest().then(({

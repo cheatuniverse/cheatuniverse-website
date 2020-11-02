@@ -22,7 +22,10 @@ module.exports = {
     en: 'en',
     fr: 'fr',
   }),
-  env: {
+  serverRuntimeConfig: {
+    API_URL: 'http://api'
+  },
+  publicRuntimeConfig: {
     API_URL: process.env.DOMAIN
   },
 };

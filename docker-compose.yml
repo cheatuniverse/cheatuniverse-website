@@ -65,7 +65,7 @@ services:
     expose:
       - 80
     labels:
-      - traefik.http.routers.api-cheatuniverse.rule=Host(`api.${DOMAIN_NAME}`)
+      - traefik.http.routers.cache-cheatuniverse.rule=Host(`api.${DOMAIN_NAME}`)
     <<: *network
 
   db:
@@ -84,7 +84,7 @@ services:
         protocol: tcp
     <<: *network
 
-  client:
+  client-cheatuniverse:
     build:
       context: ./client
     volumes:
@@ -92,8 +92,8 @@ services:
     environment:
       - DOMAIN=${HTTP_OR_SSL}api.${DOMAIN_NAME}
     labels:
-      - traefik.http.routers.client-cheatuniverse.rule=Host(`${DOMAIN_NAME}`)
-      - traefik.http.services.client-cheatuniverse.loadbalancer.server.port=3000
+      - traefik.http.routers.ssr-cheatuniverse.rule=Host(`${DOMAIN_NAME}`, `www.${DOMAIN_NAME}`)
+      - traefik.http.services.ssr-cheatuniverse.loadbalancer.server.port=3000
     <<: *network
 
 volumes:
