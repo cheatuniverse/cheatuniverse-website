@@ -54,7 +54,17 @@ services:
     expose:
       - 80
     labels:
-      - traefik.http.routers.cache-cheatuniverse.rule=Host(`api.${DOMAIN_NAME}`)
+      - traefik.http.routers.api-cheatuniverse.rule=Host(`api.${DOMAIN_NAME}`)
+    <<: *network
+
+  cache-proxy:
+    build:
+      context: ./api
+      target: api_platform_varnish
+    depends_on:
+      - php
+    labels:
+      - traefik.http.routers.cache-cheatuniverse.rule=Host(`cache.${DOMAIN_NAME}`)
     <<: *network
 
   db:
