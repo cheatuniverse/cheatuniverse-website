@@ -34,7 +34,6 @@ services:
       retries: 3
       start_period: 30s
     depends_on:
-      - traefik
       - db
     volumes:
       - ./api:/srv/api:rw,cached
